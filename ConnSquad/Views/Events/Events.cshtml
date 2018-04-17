@@ -1,0 +1,62 @@
+﻿<script type="text/html" id="events">
+    <div class="panel panel-default">
+        <div class="panel-heading">Events Manager</div>
+        <div class="panel-body" data-bind="template: 'events-' + subview()">
+            
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="events-index">
+    <div class="btn-group" role="group" aria-label="Event Tools">
+        <button type="button" data-bind="click: addEvent" class="btn btn-success">Add</button>
+    </div>
+    <hr />
+    <div class="list-group col-xs-12" data-bind="foreach: events()">
+        <div class="list-group-item">
+            <h4 class="list-group-item-heading" data-bind="text: title"></h4>
+            <p class="list-group-item-text">
+                <h5 data-bind="date: date, dateFormat: 'MMMM Do YYYY, h:mm a'"></h5>
+                <h5 data-bind="text: location"></h5>
+                <button type="button" data-bind="click: $parent.delete" class="btn btn-danger btn-sm pull-right">Delete</button>
+                <div class="btn-group btn-group-sm" role="group" aria-label="Event Tools">
+                    <button type="button" data-bind="click: $parent.manageParticipants" class="btn btn-default">Manage Participants</button>
+                    <button type="button" data-bind="click: $parent.edit" class="btn btn-default">Edit Details</button>
+                </div>
+            </p>
+        </div>
+    </div>
+</script>
+
+<script type="text/html" id="events-add">
+    <h3>Create New Event</h3>
+    <form data-bind="submit: add, with: eventModel">
+        <div class="form-group">
+            <label>Event Name</label>
+            <input type="text" class="form-control" placeholder="Event Name" data-bind="value: title">
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" placeholder="Event Description..." data-bind="value: description"></textarea>
+        </div>
+        <div class="form-group">
+            <label>Address</label>
+            <input type="text" class="form-control" placeholder="123 Main Street" data-bind="value: address">
+        </div>
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" class="form-control" placeholder="Hartford" data-bind="value: town">
+        </div>
+        <div class="form-group">
+            <label>Date</label>
+            <div class='input-group date'>
+                <input type='text' class="form-control" data-bind="dateTimePicker: date" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="button" class="btn btn-default pull-right" data-bind="click: $parent.cancel">Cancel</button>
+    </form>
+</script>

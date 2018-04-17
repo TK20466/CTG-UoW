@@ -1,0 +1,34 @@
+﻿<md-toolbar md-scroll-shrink class="md-tall" layout="row">
+    <div class="logo" flex flex-gt-sm="30"></div>
+    <div show-gt-sm hide class="navToolbar" flex layout="column" layout-align="end none">
+        <span flex></span>
+        <div class="md-toolbar-tools" layout="row" layout-padding>
+            <md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links" flex layout="row">
+                <md-nav-item md-nav-click="goto('home')" name="/home" flex>
+                    Home
+                </md-nav-item>
+                <md-nav-item md-nav-click="goto('events')" name="/events" flex>
+                    Events
+                </md-nav-item>
+                <md-nav-item md-nav-click="goto('members')" name="/members" flex>
+                    Members
+                </md-nav-item>
+                <md-nav-item md-nav-click="goto('forum')" name="/forum" flex>
+                    Forum
+                </md-nav-item>
+                <md-nav-item md-nav-click="goto('join')" name="/join" flex>
+                    Join CTG
+                </md-nav-item>
+                <!-- these require actual routing with ui-router or ng-route, so they
+                won't work in the demo
+                <md-nav-item md-nav-href="#page4" name="page5">Page Four</md-nav-item>
+                <md-nav-item md-nav-sref="app.page5" name="page4">Page Five</md-nav-item>
+                You can also add options for the <code>ui-sref-opts</code> attribute.
+                <md-nav-item md-nav-sref="page6" sref-opts="{reload:true, notify:true}">
+                    Page Six
+                </md-nav-item>
+                -->
+            </md-nav-bar>
+        </div>
+    </div>
+</md-toolbar>

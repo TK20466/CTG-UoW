@@ -1,0 +1,91 @@
+﻿html, body {
+    /*background-color: #373737;*/
+}
+
+.logo {
+    background-color: blue;
+}
+.navToolbar {
+    /*background-color: cyan;*/
+}
+
+._md-nav-bar-list button {
+    width: 100%;
+}
+
+.md-nav-bar {
+    width: 100%;
+}
+
+.view-panel {
+    background-color: #004d8a;
+}
+
+
+/*EventList*/
+.eventlist-loading {
+    background-color: rgb(103, 106, 124);
+    border: 2px solid rgb(197,202,233);
+    border-top: none;
+    padding: 10px;
+    vertical-align: middle;
+}
+.eventlist-loading > p {
+    padding-left: 10px;
+}
+
+/*Featured Member*/
+
+featured-member {
+    width: 300px;
+    height: 464px;
+}
+
+.featured-member-image {
+    position: relative;
+    /*-25 -64*/
+    height: calc(100% - 64px);
+    text-align: center;
+    background-color: black;
+}
+
+.featured-member-banner {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    background-color: lightblue;
+    bottom: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.featured-member-image > img {
+    object-fit: contain;
+    max-height: 100%;
+}
+
+
+/*Images and icons*/
+
+.cog {
+    background-image: url("/Content/images/cog.png");
+    background-size: cover;
+}
+
+.cog-small {
+    width: 60px;
+    height: 60px;
+}
+
+/*Animations*/
+
+
+.slow-spin {
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}

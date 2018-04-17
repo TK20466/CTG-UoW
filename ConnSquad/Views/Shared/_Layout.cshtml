@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @Styles.Render("~/Content/css")
+    <title>CTG Event Tracker</title>
+</head>
+<body>
+<!-- ko if: $root.routing.enableView -->
+    <div class="container" id="main-view" data-bind="template: { name: $root.routing.currentView, data: $root.routing.currentViewData }">
+        @RenderBody()
+    </div>
+<!-- /ko -->
+
+@Html.Partial("~/Views/Shared/templates.cshtml")
+@Scripts.Render("~/Bundles/dependencies")
+@Scripts.Render("~/Scripts/js.cookie-2.1.4.min.js")
+@Scripts.Render("~/Bundles/app")
+<script type="text/javascript">
+    ko.applyBindings(app);
+    app.routing.setupFromPath();
+</script>
+@RenderSection("scripts", required: false)
+</body>
+</html>

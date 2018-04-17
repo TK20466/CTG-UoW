@@ -1,0 +1,10 @@
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\CtgModels.dll.config
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\CtgModels.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\CtgModels.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\EntityFramework.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\EntityFramework.xml
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\obj\Debug\CtgModels.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\obj\Debug\CtgModels.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgModels\obj\Debug\CtgModels.csprojResolveAssemblyReference.cache

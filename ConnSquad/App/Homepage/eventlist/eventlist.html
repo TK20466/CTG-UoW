@@ -1,0 +1,25 @@
+﻿<div ng-cloak>
+    <md-toolbar layout="row" class="md-hue-3">
+        <div class="md-toolbar-tools">
+            <span>Upcoming Events</span>
+        </div>
+    </md-toolbar>
+    <md-content>
+        <md-list flex>
+            <md-list-item class="md-3-line" ng-if="loading == true">
+                <div class="md-list-item-text"  layout="column">
+                    <md-progress-linear md-mode="query"></md-progress-linear>
+                    <div layout="row" layout-align="center center" class="eventlist-loading" flex>
+                        <div class="cog cog-small slow-spin"></div>
+                        <p>Searching Imperial Logs... Standby</p>
+                    </div>
+                </div>
+            </md-list-item>
+            <ng-repeat ng-repeat="item in events">
+                <md-list-item class="secondary-button-padding" ng-click="viewEvent(item)">
+                    <p>{{item.title}}</p>
+                </md-list-item>
+            </ng-repeat>
+        </md-list>
+    </md-content>
+</div>

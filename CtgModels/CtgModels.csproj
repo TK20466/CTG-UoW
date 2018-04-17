@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A9FDA6F-D2F8-490F-8300-944F0D9240F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CtgModels</RootNamespace>
+    <AssemblyName>CtgModels</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataModels\Auth\ApiToken.cs" />
+    <Compile Include="DataModels\BaseEntity.cs" />
+    <Compile Include="DataModels\Costume\LegionCostume.cs" />
+    <Compile Include="DataModels\Event\Contact.cs" />
+    <Compile Include="DataModels\Event\Event.cs" />
+    <Compile Include="Enums\EventStatus.cs" />
+    <Compile Include="DataModels\Images\Image.cs" />
+    <Compile Include="Enums\Images\ImageType.cs" />
+    <Compile Include="DataModels\User\Account.cs" />
+    <Compile Include="DataModels\User\Member.cs" />
+    <Compile Include="DataModels\User\Verification.cs" />
+    <Compile Include="Enums\MemberStatus.cs" />
+    <Compile Include="Enums\ServiceResponse.cs" />
+    <Compile Include="Exceptions\Data\DBException.cs" />
+    <Compile Include="Exceptions\Data\DbExceptionReason.cs" />
+    <Compile Include="Exceptions\Tokens\TokenNotExistException.cs" />
+    <Compile Include="Exceptions\Tokens\UserDoesntExistException.cs" />
+    <Compile Include="Extensions\IEnumerable.cs" />
+    <Compile Include="Extensions\Object.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IService.cs" />
+    <Compile Include="Interfaces\IServiceFactory.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\Mappers\IMapper.cs" />
+    <Compile Include="Interfaces\Services\IAuthenticationService.cs" />
+    <Compile Include="Interfaces\Services\ICostumeService.cs" />
+    <Compile Include="Interfaces\Services\IEventsService.cs" />
+    <Compile Include="Interfaces\Services\IMemberService.cs" />
+    <Compile Include="Mappers\BaseMapper.cs" />
+    <Compile Include="Mappers\ContactMapper.cs" />
+    <Compile Include="Mappers\CostumeMapper.cs" />
+    <Compile Include="Mappers\EventMapper.cs" />
+    <Compile Include="Mappers\ImageMapper.cs" />
+    <Compile Include="Mappers\Mappers.cs" />
+    <Compile Include="Mappers\MemberMapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceModels\BaseModel.cs" />
+    <Compile Include="ServiceModels\Contact.cs" />
+    <Compile Include="ServiceModels\Costume.cs" />
+    <Compile Include="ServiceModels\Event.cs" />
+    <Compile Include="ServiceModels\EventParticipation.cs" />
+    <Compile Include="ServiceModels\Image.cs" />
+    <Compile Include="ServiceModels\Member.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

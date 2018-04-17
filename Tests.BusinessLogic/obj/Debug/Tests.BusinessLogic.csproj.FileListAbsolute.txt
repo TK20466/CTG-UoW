@@ -1,0 +1,17 @@
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\obj\Debug\Tests.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\OrderedTest1.orderedtest
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\Tests.BusinessLogic.dll.config
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\Tests.BusinessLogic.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\Tests.BusinessLogic.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgBusinessLogic.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgModels.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgDataAccess.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgBusinessLogic.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgModels.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\CtgDataAccess.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\obj\Debug\Tests.BusinessLogic.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\obj\Debug\Tests.BusinessLogic.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\Tests.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml

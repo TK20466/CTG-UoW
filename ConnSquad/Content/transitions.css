@@ -1,0 +1,91 @@
+﻿html, body, .fullHeight {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+}
+
+.image {
+  background: url("http://upload.wikimedia.org/wikipedia/commons/2/2f/G%C3%BCnz6.jpg") no-repeat center;
+}
+
+.scanLines {
+  /*** WEBKIT ***/
+  background: -webkit-repeating-linear-gradient(top, transparent 0px, transparent 2px, rgba(0, 0, 0, 0.8) 2px, rgba(0, 0, 0, 0.8) 4px);
+  -webkit-background-size: 100% 4px;
+  /** MOZILLA **/
+  background: -moz-repeating-linear-gradient(top, transparent 0px, transparent 2px, rgba(0, 0, 0, 0.8) 2px, rgba(0, 0, 0, 0.8) 4px);
+  -moz-background-size: 100% 4px;
+  animation: fadeout 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.holowiggle {
+  animation: holowiggle .5s ease;
+  position: relative;
+}
+
+.holoblink:before {
+  animation: holoblink 2s linear;
+  animation-fill-mode: forwards;
+}
+
+.holoblue:before {
+  content: "";
+  height: 110%;
+  width: 110%;
+  left: -5%;
+  bottom: -5%;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  background-color: lightblue;
+}
+
+@keyframes holoblink {
+  0% {
+    opacity: .75;
+  }
+  66% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes holowiggle {
+  0% {
+    transform: translate(-5px);
+  }
+  15% {
+    transform: translate(5px);
+  }
+  25% {
+    transform: translate(2px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+  75% {
+    transform: translate(-2px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

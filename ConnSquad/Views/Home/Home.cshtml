@@ -1,0 +1,8 @@
+﻿<script type="text/html" id="home">
+    <h4>Home Page</h4>
+    <input type="text" data-bind="value: myVal, valueUpdate: 'input'" />
+    <a class="btn btn-primary" data-bind="click: register">Register</a>
+    
+    <div><span>Is Logged In: </span><span data-bind="text: $root.session.isLoggedIn"></span></div>
+    <div><span>Token: </span><span data-bind="text: $root.session.token"></span></div>
+</script>

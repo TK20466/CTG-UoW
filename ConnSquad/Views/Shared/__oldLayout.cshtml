@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    @Styles.Render("~/Content/ctg.css")
+    <title>501st Connecticut Garrison - CTG</title>
+    <base href="/">
+</head>
+<body ng-app="ctgApp" ng-cloak  layout-align="center" layout="row">
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+
+    <!-- Angular Material Library -->
+<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+    @Scripts.Render("~/bundles/appdependencies")
+    @Scripts.Render("~/bundles/templates/partialHTML")
+    @Scripts.Render("~/bundles/app")
+
+</body>
+</html>

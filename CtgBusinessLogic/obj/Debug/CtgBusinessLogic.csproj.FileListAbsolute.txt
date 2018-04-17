@@ -1,0 +1,14 @@
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgBusinessLogic.dll.config
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgBusinessLogic.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgBusinessLogic.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgDataAccess.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgModels.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgDataAccess.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\CtgModels.pdb
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\obj\Debug\CtgBusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\obj\Debug\CtgBusinessLogic.dll
+C:\Users\Kitty\Documents\Visual Studio 2015\Projects\ConnSquad\CtgBusinessLogic\obj\Debug\CtgBusinessLogic.pdb
